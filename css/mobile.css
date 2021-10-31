@@ -1,0 +1,109 @@
+/* Navbar */
+#navbar {
+  height: 100%;
+  padding-left: 0;
+}
+
+#navbar ul {
+  float: none;
+}
+
+/* Showcase */
+#showcase {
+  padding: 0;
+}
+
+.showcase-display {
+  height: 100%;
+}
+
+.showcase-display img {
+  width: 100%;
+}
+
+/* Trailer */
+#trailer {
+  padding: 0;
+}
+
+.trailer-row {
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.trailer-description {
+  flex: 100%;
+  text-align: center;
+}
+
+.trailer-details {
+  flex: 100%;
+  text-align: center;
+  padding-left: 0px;
+}
+
+/* Cast */
+#cast {
+  padding: 40px 0 50px 0;
+}
+
+#cast h1 {
+  /* color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 40px; */
+  text-align: center;
+}
+
+.cast-row {
+  flex-wrap: wrap;
+}
+
+/* Review */
+#review h1 {
+  text-align: center;
+}
+
+/* Footer */
+#mainfooter {
+  /* background: #000;  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3); */
+  padding: 40px 0;
+  height: 100%;
+}
+
+/* #mainfooter h6 {
+  color: rgba(255, 255, 255, 0.5);
+} */
+
+#mainfooter p,
+#mainfooter h6 {
+  text-align: center;
+}
+
+.mainfooter-row {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+
+.mainfooter-box-1,
+.mainfooter-box-2,
+.mainfooter-box-3,
+.mainfooter-box-4 {
+  flex: 100%;
+  width: 100%;
+}
+
+.mainfooter-twitter   {
+  flex: 100%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* Secondary Footer
+#secondaryfooter {
+  text-align: center;
+  padding: 30px;
+} */
